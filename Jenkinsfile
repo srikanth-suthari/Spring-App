@@ -28,8 +28,8 @@ pipeline {
         stage ('Package') {
             steps {
                 sh 'mvn package'
-                echo
-                echo 'packaged the .jar file to the target folder'
+                sh 'echo'
+                sh 'echo packaged the .jar file to the target folder'
             }
         }
     }
