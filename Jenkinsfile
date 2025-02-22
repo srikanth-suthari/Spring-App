@@ -29,7 +29,7 @@ pipeline {
             steps {
                 sh 'mvn package'
                 echo
-                echo 'packaged the .jar file to the target directory'
+                echo 'packaged the .jar file to the target folder'
             }
         }
     }
